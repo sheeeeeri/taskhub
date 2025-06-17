@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Poetry
+poetry.lock
+
+# Env files
+.env
+*.env
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# VSCode
+.vscode/
+
+# Docker
+*.log
+docker-compose.override.yml
