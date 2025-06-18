@@ -20,11 +20,7 @@ async def async_client() -> AsyncClient:
     """
     TEST_DATABASE_URL = (
         f"postgresql+asyncpg://{settings.POSTGRES_USER}:{settings.POSTGRES_PASSWORD}@"
-<<<<<<< HEAD
         f"{settings.DB_HOST}:{settings.DB_PORT}/{settings.POSTGRES_DB}_TEST"
-=======
-        f"{settings.DB_HOST}:{settings.DB_PORT}/{settings.POSTGRES_DB}_test"
->>>>>>> 7d797d8f161073fe4108c1424f9253e933691645
     )
 
     engine = create_async_engine(TEST_DATABASE_URL, echo=False)
