@@ -25,3 +25,7 @@ poetry.lock
 # Docker
 *.log
 docker-compose.override.yml
+
+# SQL files
+init.sql
+

@@ -13,7 +13,11 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+<<<<<<< HEAD
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+=======
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+>>>>>>> 7d797d8f161073fe4108c1424f9253e933691645
 
   web:
     build: .
